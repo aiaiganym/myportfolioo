@@ -8,64 +8,97 @@
 <body>
     <nav class="navbar">
         <div class="container">
-            <a href="#" class="logo">MyPortfolio</a>
-            <div class="nav-links">
-                <a href="#about">About</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </div>
-    </nav>
-    <section id="about">
-    <div class="container text-center text-md-start">
-        <div class="row align-items-center"> <!-- Added row -->
-            <div class="col-md-4"> <!-- Column for image -->
-                <img src="photo.JPG" alt="Profile" class="profile-img shadow img-fluid"> 
-            </div>
-            <div class="col-md-8"> <!-- Column for text -->
-                <div class="about-text mt-4 mt-md-0"> 
-                    <h1>Hi, I'm <span>Aiganym</span></h1>
-                    <p class="subtitle">Big Data Enthusiast | Student at Astana IT University</p>
-                    <p>I'm 18 years old and originally from Karaganda. Currently, I'm studying Big Data Analysis at Astana IT University, where I’m building a strong foundation in data analytics, 
-                        programming, and data-driven decision-making. I’m fluent in English, Kazakh, and Russian, which helps me confidently explore global tech trends and collaborate across cultures.</p>
-                    <a href="#projects" class="btn btn-primary mt-3">View My Work</a>
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <a href="#" class="logo">MyPortfolio</a>
+                </div>
+                <div class="col-md-8">
+                    <div class="nav-links d-flex justify-content-md-end">
+                        <a href="#about" class="mx-3">About</a>
+                        <a href="#projects" class="mx-3">Projects</a>
+                        <a href="#contact" class="mx-3">Contact</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </nav>
+
+    <section id="about">
+        <div class="container text-center text-md-start">
+            <div class="row align-items-center">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <img src="photo.JPG" alt="Profile" class="profile-img shadow img-fluid"> 
+                </div>
+                <div class="col-md-8">
+                    <div class="about-text mt-4 mt-md-0">
+                        <h1>Hi, I'm <span>Aiganym</span></h1>
+                        <p class="subtitle">Big Data Enthusiast | Student at Astana IT University</p>
+                        <p>I'm 18 years old and originally from Karaganda. Currently, I'm studying Big Data Analysis at Astana IT University, where I'm building a strong foundation in data analytics, 
+                            programming, and data-driven decision-making. I'm fluent in English, Kazakh, and Russian, which helps me confidently explore global tech trends and collaborate across cultures.</p>
+                        <a href="#projects" class="btn btn-primary mt-3">View My Work</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section id="projects" class="my-4">
         <div class="container">
-          <h2 class="text-center mb-4">My Projects</h2>
-          
-          <div class="project-card mb-4 p-3 bg-white rounded">
-            <h3 class="mb-3">Ada Lovelace Tribute</h3>
-            <div class="d-flex flex-wrap gap-3">
-              <img src="ada1.png" alt="Ada Tribute" class="project-img rounded">
-              <img src="ada2.png" alt="Ada Timeline" class="project-img rounded">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center mb-4">My Projects</h2>
+                </div>
             </div>
-          </div>
-          
-          <div class="project-card p-3 bg-white rounded">
-            <h3 class="mb-3">Japan Travel Guide</h3>
-            <div class="d-flex flex-wrap gap-3">
-              <img src="japan1.png" alt="Discover Japan" class="project-img rounded">
-              <img src="japan2.png" alt="Japan Destinations" class="project-img rounded">
-              <img src="japan3.png" alt="Travel Tips" class="project-img rounded">
+            
+            <div class="row mb-4">
+                <div class="col-12">
+                    <div class="project-card p-3 bg-white rounded">
+                        <h3 class="mb-3">Ada Lovelace Tribute</h3>
+                        <div class="row">
+                            <div class="col-sm-6 mb-3 mb-sm-0">
+                                <img src="ada1.png" alt="Ada Tribute" class="project-img rounded img-fluid">
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="ada2.png" alt="Ada Timeline" class="project-img rounded img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+            
+            <div class="row">
+                <div class="col-12">
+                    <div class="project-card p-3 bg-white rounded">
+                        <h3 class="mb-3">Japan Travel Guide</h3>
+                        <div class="row">
+                            <div class="col-md-4 mb-3 mb-md-0">
+                                <img src="japan1.png" alt="Discover Japan" class="project-img rounded img-fluid">
+                            </div>
+                            <div class="col-md-4 mb-3 mb-md-0">
+                                <img src="japan2.png" alt="Japan Destinations" class="project-img rounded img-fluid">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="japan3.png" alt="Travel Tips" class="project-img rounded img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </section>
+    </section>
 
     <footer id="contact" class="text-center">
         <div class="container">
-            <h2 class="mb-4">Contact</h2>
-            <p>aiganymmukhitzhan@gmail.com</p>
-            <p>+7 (705) 713 4141</p>
-            <div class="social-links mt-4"> 
-                <a href="#" class="btn btn-outline-secondary mx-2">GitHub</a>
-                <a href="#" class="btn btn-outline-secondary mx-2">LinkedIn</a>
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <h2 class="mb-4">Contact</h2>
+                    <p>aiganymmukhitzhan@gmail.com</p>
+                    <p>+7 (705) 713 4141</p>
+                    <div class="social-links mt-4 d-flex justify-content-center">
+                        <a href="https://github.com/aiaiganym/myportfolioo" class="btn btn-outline-secondary mx-2">GitHub</a>
+                        <a href="#" class="btn btn-outline-secondary mx-2">LinkedIn</a>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
